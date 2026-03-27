@@ -40,23 +40,11 @@ CREATE TABLE IF NOT EXISTS empleado (
 );
 ```
 
-**`database/provincias.sql`** — pon aquí el INSERT de las 24 provincias que ya tienes.
+Crear un archivo .env con estas estructura para las credenciales, ingresar sus propias credenciales de mysql
 
----
-
-## Estructura final del repositorio
-
-Te recomiendo que en GitHub tengas esto:
-```
-/
-├── empleados-backend/
-│   ├── database/
-│   │   ├── schema.sql
-│   │   └── provincias.sql
-│   ├── src/
-│   ├── .env.example        ← pon esto en lugar del .env real
-│   └── README.md
-├── empleados-frontend/
-│   ├── src/
-│   └── README.md
-└── README.md               ← README raíz opcional
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASS=root
+DB_NAME=empleados_db
+PORT=3000
