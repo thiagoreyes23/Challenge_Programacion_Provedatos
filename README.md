@@ -35,30 +35,9 @@ API REST construida con NestJS y TypeORM para el módulo de gestión de empleado
    PORT=3000
 ```
 
-4. Crea la base de datos ejecutando los scripts en este orden desde MySQL Workbench, DBeaver o consola:
-
-   **DDL — Crea la estructura de tablas:**
-```
-   database/01_ddl_schema.sql
-```
-   **DML — Carga los datos iniciales de provincias:**
-```
-   database/02_dml_provincias.sql
-```
-```
-
-**En la estructura del proyecto**, reemplaza:
-```
-database/
-├── schema.sql
-└── provincias.sql
-```
-
-**Por esto:**
-```
-database/
-├── 01_ddl_schema.sql      ← DDL: estructura de tablas
-└── 02_dml_provincias.sql  ← DML: datos iniciales
+4. Crea la base de datos ejecutando los scripts en orden desde MySQL Workbench, DBeaver o consola:
+   - `database/01_ddl_schema.sql` — DDL: estructura de tablas
+   - `database/02_dml_provincias.sql` — DML: datos iniciales
 
 5. Crea la carpeta para las fotos:
 ```bash
