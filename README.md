@@ -11,12 +11,13 @@ API REST construida con NestJS y TypeORM para el módulo de gestión de empleado
 | Node.js     | v20.x          |
 | npm         | v10.x          |
 | MySQL       | v8.0           |
+| NestJs      | v11.0.x        |
 
 ## Instalación
 
 1. Clona el repositorio e ingresa a la carpeta del backend:
 ```bash
-   cd empleados-backend
+   cd Challenge_Programacion_Provedatos
 ```
 
 2. Instala las dependencias:
